@@ -17,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/SeagoingPear/2e_gb_pw2/issues"
   },
-  "homepage": "https://github.com/SeagoingPear/2e_gb_pw2#readme"
+  "homepage": "https://github.com/SeagoingPear/2e_gb_pw2#readme",
+  "dependencies": {}
 }

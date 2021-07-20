@@ -1,0 +1,16 @@
+.bg-gray{
+background-color: #222;
+}
+
+small{
+  font-size: small;
+  float: left;
+}
+
+.promo{
+  background-color: #3c51e8;
+  padding: 4px 5px;
+  border-radius: 5px;
+  font-size: 70%;
+  margin-top: -3px;
+}

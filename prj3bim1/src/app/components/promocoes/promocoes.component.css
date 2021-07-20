@@ -1,0 +1,14 @@
+.row>.col-2{
+  width: 20%;
+}
+
+.promo{
+  background-color: #3c51e8;
+  padding: 7px 9px;
+  border-radius: 5px;
+  font-size: 70%;
+}
+
+.fs-15px{
+  font-size: 12px;
+}

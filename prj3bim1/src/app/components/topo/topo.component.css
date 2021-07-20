@@ -1,0 +1,64 @@
+nav.navbar{
+  margin: 0px;
+  padding: 0px;
+  height: 15%;
+  font-size: 13px;
+}
+
+nav.navbar > div.bg-primary{
+  height: 50px !important;
+  width: 10%;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.me-auto > .nav-item{
+  padding-inline: 5px;
+}
+
+button{
+  height: 110%;
+  padding: 0px;
+  margin: 0px auto;
+  display: block;
+  position: relative;
+}
+
+.w-40{
+  width: 40%;
+}
+.menu2{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+.menu2 > li{
+  display: inline;
+  margin-right: 10px;
+}
+
+.dropdown{
+  display: inline;
+  padding-left: 23%;
+}
+
+.td-none{
+  text-decoration: none;
+  color: white;
+}
+
+.fundo-pesquisa, .form-control{
+  background-color: #252525;
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
+
+.btn-baixar{
+  font-size: 13px;
+  border-radius: 0 !important;
+}

@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #191919;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.w-15{
+  width: 15% !important;
+}
+
+.fs-13px{
+  font-size: 13px !important;
+}
+
+.px-6{
+  padding-inline: 22% 22%;
+}
+
+.fs-smaller{
+  font-size: smaller;
+}
+
+.bg-black{
+  background-color: black;
+}

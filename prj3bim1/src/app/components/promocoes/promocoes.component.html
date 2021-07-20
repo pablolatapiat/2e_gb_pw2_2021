@@ -1,0 +1,25 @@
+<div class="container pt-5">
+  <h5 class="ps-3">Jogos em Promoção</h5>
+  <div class="row">
+    <div *ngFor="let p of promocao" class="col-2 px-4 py-2 d-none d-lg-block">
+      <a role="button">
+        <img [src]="p.capa" class="w-100 rounded-3">
+      </a>
+    <div class="py-3">
+      <small>{{ p.nome }}</small>
+      <br>
+      <span class="text-muted fs-15px">{{ p.tm }}</span>
+      <div class="py-3">
+        <span class="promo" *ngIf="p.promo != '' ">{{ p.promo }}</span><span class="fs-smaller text-decoration-line-through text-muted px-2" *ngIf="p.precoAnt != '' ">{{ p.precoAnt }}</span><span class="fs-smaller px-1">{{ p.preco }}</span>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let p of promocao" class="col-6 d-lg-none">
+      <a role="button" [ngClass]="{'d-none': p.indice > 3}">
+        <img [src]="p.capa" class="w-100 rounded-3">
+      </a>
+    </div>
+  </div>
+</div>
