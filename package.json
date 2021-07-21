@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm i -g @angular/core @angular/cli; ng version",
-    "start-linux": "sudo npm i -g @angular/core @angular/cli",
+    "start": "npm i -g @angular/core @angular/cli && ng version",
+    "linux": "sudo npm i -g @angular/core @angular/cli && ng version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
