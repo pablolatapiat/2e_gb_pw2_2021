@@ -9,6 +9,7 @@ import { GratisComponent } from './components/gratis/gratis.component';
 import { NovosPopularesComponent } from './components/novos-populares/novos-populares.component';
 import { PromocoesComponent } from './components/promocoes/promocoes.component';
 import { TopoComponent } from './components/topo/topo.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TopoComponent } from './components/topo/topo.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
